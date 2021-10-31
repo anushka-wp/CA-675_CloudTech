@@ -18,4 +18,4 @@ select OwnerUserId, Sum(score) as Score from ca675_data1 group by OwnerUserId or
 
 5) The number of distinct users, who used the word “cloud” in one of their posts
 
-select count (distinct OwnerUserId) from ca675_data1 where (lower(body) like '%cloud%' or lower(title) like '%cloud%' or lower(tags) like '%cloud%');
+select count (distinct OwnerUserId) from ca675_data1 where (lower(body) like '% cloud %' or lower(title) like '% cloud %' or lower(tags) like '% cloud %');
