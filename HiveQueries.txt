@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS ca675_data1(Id String, AcceptedAnswerId String, Score
 
 2) Loading the data 
 
-load data inpath ' gs://ca675_combine_file/combine.csv' into table ca675_data1;
+load data inpath 'gs://dataproc-staging-us-central1-740634556074-oj9k6b4h/combine.csv' into table ca675_data1;
 
 3) The top 10 posts by score
 
